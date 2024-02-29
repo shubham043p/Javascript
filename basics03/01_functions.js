@@ -40,4 +40,19 @@ function UserDetail(user){
     console.log(`username is ${user.username} and age is ${user.age}`)
 }
 
-UserDetai(customer);
+UserDetail(customer);
+
+const myarr = [1,2,3,4,5]
+
+function printarr(arr){
+    console.log(arr[0]);
+}
+
+printarr([20,50]);
+
+const myobj = {
+    first : "shubham",
+    second : "panwar"
+}
+
+UserDetail({username:"shubham",age:"19"});
