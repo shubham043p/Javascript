@@ -31,11 +31,13 @@
 // }
 // console.log(r(1,2,2,3,3,4,45))
 
-const user = {
+const customer = {
     username: "shubham",
     age:"19"
 }
 
 function UserDetail(user){
-    console.log(`username is ${user.username} and age is ${user}`)
+    console.log(`username is ${user.username} and age is ${user.age}`)
 }
+
+UserDetai(customer);
